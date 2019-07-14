@@ -1,17 +1,33 @@
 {
   "name": "pegjs-import-loader",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "PEG.js import loader for webpack",
+  "license": "MIT",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phuongduyphan/pegjs-import-loader"
+  },
+  "keywords": [
+    "webpack",
+    "pegjs",
+    "peg.js",
+    "peg",
+    "loader",
+    "import",
+    "pegjs-import"
+  ],
   "author": "Duy Phan <phuongduyphan@gmail.com> (https://github.com/phuongduyphan)",
-  "license": "ISC",
   "dependencies": {
     "lodash": "^4.17.14",
     "pegjs": "^0.10.0",
     "webpack": "^4.35.3",
     "webpack-cli": "^3.3.5"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1"
   }
 }
