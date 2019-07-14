@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/phuongduyphan/pegjs-import-loader.svg?branch=master)](https://travis-ci.org/phuongduyphan/pegjs-import-loader)
+[![Coverage Status](https://coveralls.io/repos/github/phuongduyphan/pegjs-import-loader/badge.svg)](https://coveralls.io/github/phuongduyphan/pegjs-import-loader)
 [![npm version](https://img.shields.io/npm/v/pegjs-import-loader.svg)](https://www.npmjs.com/package/pegjs-import-loader)
 ![npm license](https://img.shields.io/npm/l/pegjs-import-loader.svg)  
 # [PEG.js](https://github.com/pegjs/pegjs) import loader for [webpack](http://webpack.github.io/)
