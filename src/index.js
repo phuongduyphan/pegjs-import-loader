@@ -39,7 +39,7 @@ class PegImportHelper {
     };
 
     rawDependencies.forEach((rawDependency) => {
-      const nextNormalizeFilePath = path.normalize(`${path.dirname(normalizeFilePath)}/${rawDependency}`);
+      const nextNormalizeFilePath = path.resolve(path.dirname(normalizeFilePath), rawDependency);
       if (!this.graphState[nextNormalizeFilePath]) {
         this.loadDependencies(nextNormalizeFilePath).forEach((val) => {
           dependencies.push(val);
