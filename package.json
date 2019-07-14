@@ -5,7 +5,7 @@
   "license": "MIT",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage --coverageReporters=text-lcov | coveralls"
   },
   "repository": {
     "type": "git",
@@ -23,11 +23,19 @@
   "author": "Duy Phan <phuongduyphan@gmail.com> (https://github.com/phuongduyphan)",
   "dependencies": {
     "lodash": "^4.17.14",
+    "memory-fs": "^0.4.1",
     "pegjs": "^0.10.0",
     "webpack": "^4.35.3",
     "webpack-cli": "^3.3.5"
   },
   "devDependencies": {
-    "eslint": "^6.0.1"
+    "babel-jest": "^24.8.0",
+    "babel-preset-env": "^1.7.0",
+    "coveralls": "^3.0.5",
+    "eslint": "^6.0.1",
+    "jest": "^24.8.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
   }
 }
