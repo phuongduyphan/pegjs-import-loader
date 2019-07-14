@@ -1,6 +1,6 @@
-# [PEG.js](https://github.com/pegjs/pegjs) import loader for [webpack](http://webpack.github.io/)
 [![npm version](https://img.shields.io/npm/v/pegjs-import-loader.svg)](https://www.npmjs.com/package/pegjs-import-loader)
 ![npm license](https://img.shields.io/npm/l/pegjs-import-loader.svg)  
+# [PEG.js](https://github.com/pegjs/pegjs) import loader for [webpack](http://webpack.github.io/)
 A simple loader for PEG.js that supports importing multiple grammars from different PEG.js files
 ## Install
 `npm install --save-dev pegjs-import-loader pegjs webpack`
@@ -50,7 +50,7 @@ Factor
 @import './base-rules.pegjs'
 @import './keywords.pegjs'
 ```
-* Import statement **must be after** the initializer block of PEG.js (*initializer is a piece of JavaScript code in curly braces (“{” and “}”) that precede the first rule*)
+* Import statement **must be after** the initializer block of PEG.js (*initializer is a piece of JavaScript code in curly braces (“{” and “}”) that precedes the first rule*)
 * When importing grammars from other files, **all the rules in those files are accessible** in the current context
 * All the **JS variables and functions in initializers will also be accessible** from the current context
 * Due to the accessibility of all the rules, variables and functions from other pegjs files in current context, users must be aware of duplication of rule, variable and function names
