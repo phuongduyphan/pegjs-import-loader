@@ -25,8 +25,8 @@
     "lodash": "^4.17.14",
     "memory-fs": "^0.4.1",
     "pegjs": "^0.10.0",
-    "webpack": "^4.35.3",
-    "webpack-cli": "^3.3.5"
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
   },
   "devDependencies": {
     "babel-jest": "^24.8.0",
